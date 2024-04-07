@@ -52,14 +52,6 @@ if "chat_session" not in st.session_state:
         "parts": ["Okay! From now on, I'm Aabha, your virtual healthcare assistant. Please tell me about your symptoms and any relevant information, so I can try my best to help you."]
     },
 
-    {
-    "role": "user",
-    "parts": ["do not proivde any other suggestion only proive medical realted suggestion suggest some medicne and give health tips"]
-  },
-   {
-    "role": "model",
-    "parts": ["**Medical Advice**\n\n**Symptoms:** Please provide me with your symptoms so I can offer specific medical advice. Including the duration and severity of your symptoms will help me give you more accurate information.\n\n**Medications:**\n\n* **Over-the-counter:** If your symptoms are mild, over-the-counter medications may provide relief. For example, acetaminophen or ibuprofen can help reduce pain and fever. For allergies, antihistamines such as loratadine or cetirizine can be effective.\n* **Prescription:** If your symptoms are more severe or persistent, prescription medications may be necessary. Your doctor can determine the best course of treatment based on your specific condition.\n\n**Health Tips:**\n\n* **Rest:** Getting enough rest can help your body heal and fight off infections. Aim for 7-9 hours of sleep each night.\n* **Hydration:** Staying hydrated is essential for overall health. Drink plenty of fluids, especially water, throughout the day.\n* **Healthy diet:** Eating a healthy diet can boost your immune system and support your overall well-being. Focus on consuming fruits, vegetables, and whole grains.\n* **Exercise:** Regular exercise can help improve your health and reduce the risk of chronic diseases. Aim for at least 30 minutes of moderate-intensity exercise most days of the week.\n* **Stress management:** Stress can have a negative impact on your health. Find healthy ways to manage stress, such as exercise, yoga, or meditation.\n\n**Important Note:** It's important to consult a medical professional for an accurate diagnosis and treatment plan. My advice is not intended to replace professional medical care."]
-  },
     ])
 
 
