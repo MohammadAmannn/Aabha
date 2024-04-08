@@ -23,7 +23,7 @@ gen_ai.configure(api_key=GOOGLE_API_KEY)
 model = gen_ai.GenerativeModel('gemini-pro')
 
 generation_config = {
-  "temperature": 0.9,
+  "temperature": 0.5,
   "top_p": 1,
   "top_k": 1,
   "max_output_tokens": 2048,
